@@ -1,4 +1,4 @@
-const VERSION='xiaoyu-offline-b8152254a414';
+const VERSION='xiaoyu-offline-24c283f819f3';
 const ASSETS=['./','./index.html','./style.css','./app.js','./core.js','./bank.json','./coverage.json','./manifest.webmanifest','./icon-192.png','./icon-512.png'];
 self.addEventListener('install',event=>event.waitUntil((async()=>{const cache=await caches.open(VERSION);await Promise.all(ASSETS.map(async path=>{const response=await fetch(new Request(path,{cache:'reload'}));if(!response.ok||response.redirected)throw Error('Asset download failed');const type=response.headers.get('content-type')||'';if((path.endsWith('.js')||path.endsWith('.json'))&&type.includes('text/html'))throw Error('Invalid asset');await cache.put(path,response)}));await self.skipWaiting()})()));
 self.addEventListener('activate',event=>event.waitUntil((async()=>{for(const key of await caches.keys())if(key.startsWith('xiaoyu-offline-')&&key!==VERSION)await caches.delete(key);await self.clients.claim()})()));
