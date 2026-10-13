@@ -1,10 +1,10 @@
 {
-  "totalSourceFiles": 206,
-  "updatedAt": "2026-10-12",
-  "questionCount": 1253,
+  "totalSourceFiles": 210,
+  "updatedAt": "2026-10-13",
+  "questionCount": 1457,
   "subjects": {
-    "政治": 876,
-    "英语": 150,
+    "政治": 958,
+    "英语": 272,
     "艺术概论": 227
   },
   "files": [
@@ -1087,6 +1087,77 @@
       "imported": 35,
       "duplicates": 0,
       "status": "已整理；保留来源，自测题对照参考答案批改"
+    },
+    {
+      "subject": "政治",
+      "file": "2026年成人高考《政治（专升本）》考前揭秘卷（一）.docx",
+      "folder": "1013更新",
+      "imported": 41,
+      "status": "按完整练习卷导入；保留来源。题号按全卷连续编排，原资料位置见解析。不同试卷的重复考点保留。",
+      "corrections": [
+        {
+          "number": 33,
+          "reason": "补明票房统计口径；新片累计票房与春节档期内票房不是同一指标。"
+        }
+      ],
+      "exactOverlaps": []
+    },
+    {
+      "subject": "政治",
+      "file": "2026年成人高考《政治（专升本）》考前揭秘卷（二）.docx",
+      "folder": "1013更新",
+      "imported": 41,
+      "status": "按完整练习卷导入；保留来源。题号按全卷连续编排，原资料位置见解析。不同试卷的重复考点保留。",
+      "corrections": [],
+      "exactOverlaps": []
+    },
+    {
+      "subject": "英语",
+      "file": "2026年成人高考《英语（专升本）》考前揭秘卷（一）.docx",
+      "folder": "1013更新",
+      "imported": 61,
+      "status": "按完整练习卷导入；保留来源。题号按全卷连续编排，原资料位置见解析。不同试卷的重复考点保留。",
+      "corrections": [
+        {
+          "number": 16,
+          "reason": "补齐原题遗漏的填空位置。"
+        },
+        {
+          "number": 17,
+          "reason": "原题缺少 is 且多出 that；按解析所考查的 not until 倒装结构修正题干。"
+        },
+        {
+          "number": 61,
+          "reason": "将范文中不自然的 a delay in life span 改为 a longer life span。"
+        }
+      ],
+      "exactOverlaps": []
+    },
+    {
+      "subject": "英语",
+      "file": "2026年成人高考《英语（专升本）》考前揭秘卷（二）.docx",
+      "folder": "1013更新",
+      "imported": 61,
+      "status": "按完整练习卷导入；保留来源。题号按全卷连续编排，原资料位置见解析。不同试卷的重复考点保留。",
+      "corrections": [
+        {
+          "number": 13,
+          "reason": "补齐原题遗漏的填空位置。"
+        },
+        {
+          "number": 47,
+          "reason": "修正原题 purpose 的拼写错误。"
+        },
+        {
+          "number": 61,
+          "reason": "修正 this Sunday 前多余的介词 on。"
+        },
+        {
+          "number": 61,
+          "reason": "范文末段 Friday 与题干及前文 Sunday 不一致，统一为 Sunday。"
+        }
+      ],
+      "exactOverlaps": []
     },
     {
       "subject": "艺术概论",
